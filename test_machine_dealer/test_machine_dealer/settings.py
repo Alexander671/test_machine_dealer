@@ -35,8 +35,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'environ',
-    'dealer',
-    'machine'
+    'dealer.apps.DealerConfig',
+    'machine.apps.MachineConfig',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
