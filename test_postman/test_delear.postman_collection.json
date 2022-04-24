@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "http://127.0.0.1:8000/dealer/1/?name=abcd&official=true&address=c",
+			"name": "put dealer",
 			"request": {
 				"method": "PUT",
 				"header": [
@@ -40,7 +40,7 @@
 			"response": []
 		},
 		{
-			"name": "http://127.0.0.1:8000/dealer/?name=abcd&official=true&address=c",
+			"name": "post dealer",
 			"protocolProfileBehavior": {
 				"disabledSystemHeaders": {
 					"content-type": true
@@ -95,7 +95,7 @@
 			"response": []
 		},
 		{
-			"name": "http://127.0.0.1:8000/dealer",
+			"name": "get dealer",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -118,7 +118,7 @@
 			"response": []
 		},
 		{
-			"name": "http://127.0.0.1:8000/machine/1",
+			"name": "delete dealer",
 			"request": {
 				"method": "DELETE",
 				"header": [],
